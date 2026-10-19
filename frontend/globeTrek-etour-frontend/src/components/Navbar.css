@@ -1,0 +1,12 @@
+.navbar-brand {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 17px;
+}
+
+.nav-link:hover {
+    color: yellow !important;
+}

@@ -1,0 +1,32 @@
+.hero{
+    background-image:
+        linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+        url("../assets/images/banner.png");
+
+    background-size: cover;   /* instead of cover */
+    background-repeat: no-repeat;
+    background-position:  center 30%;
+    height: 380px;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    text-align: center;
+}
+
+.hero h1{
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.hero p{
+    font-size: 28px;
+    margin-top:20px;
+}
+
+.hero .btn{
+    margin-top:20px;
+}
